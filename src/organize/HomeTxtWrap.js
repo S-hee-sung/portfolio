@@ -153,7 +153,6 @@ const TxtWrap = styled.main`
 			margin: 5vh 0 0 30px;
 			background-image: url(${(props) => props.theme.mainSrc});
 			background-size: cover;
-			background-repeat: no-repeat;
 			background-position: top;
 			border-radius: 15px;
 			box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
@@ -233,6 +232,10 @@ const TxtWrap = styled.main`
 			color: #fff;
 			line-height: 46px;
 			letter-spacing: 0.5px;
+		}
+		.more-btn:hover {
+			background-color: #fff;
+			color:#111;
 		}
 	}
 	@media ${(props) => props.theme.laptop} {
@@ -323,7 +326,7 @@ function HomeTxtWrap() {
 					<Heading>
 						I'M{" "}
 						<span className="message">
-							<strong>SUE HeeSung</strong>
+							<strong>HEESUNG SUE</strong>
 							<strong>WEB DEVELOPER</strong>
 							<strong>UX/UI PUBLISHER</strong>
 						</span>
