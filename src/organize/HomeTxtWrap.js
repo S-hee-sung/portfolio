@@ -350,7 +350,7 @@ function HomeTxtWrap() {
 							<span>Phone : </span>010.7273.4509
 						</li>
 						<li>
-							<span>Address : </span>서울시 서대문구
+							<span>Address : </span>인천광역시 서구 청라동
 						</li>
 						<li>
 							<span>Email : </span>dlsglrhdwjs@naver.com

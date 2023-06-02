@@ -1,23 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styled, { keyframes } from "styled-components";
 
-function Preloader() {
-	const [Mount, setMount] = useState(false);
-	useEffect(() => {
-		setTimeout(() => {
-			setMount(true);
-		}, 300);
-		return () => setMount(false);
-	}, []);
-
-	return (
-		<StyledPreloader className={`preloader${Mount ? " off" : ""}`}>
-			<div className="black_wall"></div>
-			<div className="loader"></div>
-		</StyledPreloader>
-	);
-}
-
 const preloader_slide = keyframes`
 	from {
 		transform: scaleY(0)
@@ -60,5 +43,23 @@ const StyledPreloader = styled.div`
 		animation: ${preloader_slide} 0.5s ease-in-out 0s 1 reverse both;
 	}
 `;
+
+function Preloader() {
+	const [Mount, setMount] = useState(false);
+	useEffect(() => {
+		setTimeout(() => {
+			setMount(true);
+		}, 300);
+		return () => setMount(false);
+	}, []);
+
+	return (
+		<StyledPreloader className={`preloader${Mount ? " off" : ""}`}>
+			<div className="black_wall"></div>
+			<div className="loader"></div>
+		</StyledPreloader>
+	);
+}
+
 
 export default Preloader;

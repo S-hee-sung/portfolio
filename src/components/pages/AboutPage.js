@@ -4,6 +4,7 @@ import styled from "styled-components";
 import PageWrap from '../../organize/templates/PageWrap';
 import Heading from '../../assets/Heading';
 import Header from '../../organize/Header';
+import SkillsWrap from '../../organize/templates/SkillsWrap';
 
 const AboutWrapper = styled.main`
 	section {
@@ -56,6 +57,7 @@ function AboutPage(props) {
 
         <section>
           <Heading level="2">MY SKILLS</Heading>
+					<SkillsWrap />
         </section>
 
       </AboutWrapper>
