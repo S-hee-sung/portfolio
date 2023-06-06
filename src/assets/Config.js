@@ -7,7 +7,8 @@ const size = {
 };
 
 const config = {
-	mainColor: "#ffb400",
+	// mainColor: "#ffb400",
+	mainColor: "#6EE0FF",
 
 	mobile: `(max-width: ${size.mobile})`,
 	tablet: `(max-width: ${size.tablet})`,
