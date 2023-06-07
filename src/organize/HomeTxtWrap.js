@@ -327,7 +327,7 @@ function HomeTxtWrap() {
 						I'M{" "}
 						<span className="message">
 							<strong>HEESUNG SUE</strong>
-							<strong>WEB DEVELOPER</strong>
+							<strong>FE DEVELOPER</strong>
 							<strong>UX/UI PUBLISHER</strong>
 						</span>
 					</Heading>
