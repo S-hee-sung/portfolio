@@ -1,6 +1,7 @@
 import React from 'react';
 import PageWrap from '../../organize/templates/PageWrap';
 import PageHeader from '../../organize/PageHeader';
+import PortfolioMain from '../../organize/PortfolioMain';
 
 
 function ProjectPage(props) {
@@ -11,7 +12,7 @@ function ProjectPage(props) {
           My <span className="point">Projects</span>
         </PageHeader>
         <section>
-          
+          <PortfolioMain />
         </section>     
       </main>
     </PageWrap>
